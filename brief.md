@@ -22,10 +22,21 @@ Resource: Android Developers — Request app permissions — https://developer.a
 
 
 ## Networking
+DNS over HTTPS (DoH) sends DNS requests through an encrypted HTTPS connection. It helps protect users by making DNS traffic harder for others on the network to read or change. It also helps prevent some attacks that redirect users to fake servers. However, DoH does not hide all online activity or protect every part of the connection. The service still needs other security measures, such as HTTPS, to protect users.
+
+Resource: RFC 8484 - DNS Queries over HTTPS (DoH) - https://www.rfc-editor.org/rfc/rfc8484
 
 ## Cybersecurity
+Phishing-resistant authentication helps stop attackers from stealing login details through fake websites. Passkeys and FIDO2 security keys can provide phishing-resistant authentication because they are linked to the legitimate website. However, passwords and manually entered one-time codes, including SMS codes, are not considered phishing-resistant. Using phishing-resistant methods can make account login safer and reduce the risk of attackers pretending to be trusted services.
+
+Resource: NIST SP 800-63B-4 - Authentication and Authenticator Management - https://pages.nist.gov/800-63-4/sp800-63b.html
+
 
 ## Data
+Under Oman’s Personal Data Protection Law, the authority must handle citizens’ personal data transparently and lawfully. It generally needs explicit consent before processing personal data, although the law lists exceptions. The authority should protect stored data, limit access, and respect people’s rights to request corrections, copies, or deletion where applicable. It must also follow the law’s requirements for handling personal data breaches and other data protection responsibilities.
+
+Resource: Royal Decree 6/2022 - Personal Data Protection Law (Consolidated) - https://decree.om/2022/l20220006/
+
 
 ## Misconception in My Track
 
