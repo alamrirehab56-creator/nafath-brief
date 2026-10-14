@@ -39,5 +39,7 @@ Resource: Royal Decree 6/2022 - Personal Data Protection Law (Consolidated) - ht
 
 
 ## Misconception in My Track
+A common misconception is that OAuth 2.0 is a login protocol that confirms a user’s identity. In fact, OAuth 2.0 is mainly designed for authorization, allowing applications to access protected resources with permission. OpenID Connect adds an identity layer to OAuth 2.0 and supports user authentication. For example, an application can use an ID token to receive information about the authentication event. Therefore, developers should use OpenID Connect when they need a standard way to verify a user’s identity. This difference is explained in the “Introduction” (Section 1) of the OpenID Connect Core 1.0 specification.
 
 ## Open Question
+How should a software developer validate OpenID Connect ID tokens to ensure they are genuine and have not expired before allowing users to access government services?
