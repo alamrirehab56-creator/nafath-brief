@@ -10,13 +10,13 @@ Resource: OpenID Connect Core 1.0 — Section 1, Introduction — https://openid
 
 
 ## AI
-AI can help NAFATH detect unusual login attempts by analyzing user activity. For example, it may notice a login attempt that is different from the user’s usual behavior. However, AI can sometimes make mistakes and flag a real user by accident. Regular testing is important to make sure the system works well and protects users’ personal information. Human review can also help when the system detects suspicious activity.
+AI can help the national login service detect suspicious login attempts by looking at user activity. However, it may sometimes flag a normal login by mistake or miss a real threat. Before using the model, the authority should check its accuracy, reliability, fairness, security, and privacy risks. The NIST AI Risk Management Framework explains how these risks can be identified, measured, and managed. The model should also be tested and monitored after launch.
 
 Resource: NIST AI Risk Management Framework (AI RMF 1.0) — https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf
 
 
 ## Mobile
-Mobile apps may need permission to use features like the camera, location, or contacts. On supported Android versions, users must approve certain sensitive permissions when the app needs them. A good app should explain why it needs permission and only ask for access when necessary. For a national login service like NAFATH, this helps protect users’ personal information and gives them more control over what the app can access on their phones.
+Mobile apps may need access to features like the camera, location, or contacts. On supported Android versions, users must approve certain sensitive permissions when the app needs them. The app should explain why it needs permission and only ask for access when necessary. If a user refuses, the app should handle this properly. This helps protect personal information and gives users more control over what the login app can access on their phones.
 
 Resource: Android Developers — Request app permissions — https://developer.android.com/training/permissions/requesting
 
